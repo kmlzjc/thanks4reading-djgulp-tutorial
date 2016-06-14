@@ -1,0 +1,6 @@
+media/
+db.sqlite3
+*.pyc
+.idea/
+node_modules/
+dev/static

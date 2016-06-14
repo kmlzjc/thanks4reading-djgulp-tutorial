@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+ 
+{% load static %}
+ 
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="UTF-8">
+        <title>Code4Clothes</title>
+        <script src="{% get_static_prefix %}js/main.js"></script>
+    </head>
+    <body>
+        {% verbatim %}
+            <div ng-controller="AppController">
+                <h1>{{ header }}</h1>
+            </div>
+        {% endverbatim %}
+    </body>
+</html>
